@@ -4,6 +4,7 @@ import numpy as np
 # Initialize SIFT detector with parameters to detect more keypoints
 sift=cv2.SIFT_create(nfeatures=5000, contrastThreshold=0.01, edgeThreshold=10, sigma=1.6)
 
+
 # Parameters for Lucas-Kanade optical flow
 lk_params=dict(winSize=(15, 15),
                  maxLevel=2,
